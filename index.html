@@ -6,56 +6,33 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Coyote Bail Squad</title>
 	
-	
 	<!-- Site CSS --> 
     <link href="css/styles.css" rel="stylesheet" type="text/css">
 
 	<!-- Fonts -->
     <link href='http://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'>
 
-    <!-- Bootstrap CSS -->
+    <!-- Bootswatch Superhero CSS -->
     <link href="css/bootstrap.css" rel="stylesheet">
     <link href="css/custom.min.css" rel="stylesheet">	
   </head>
   <body>
-
-    
     <div class="container">
-
-      <div class="starter-template">
-        <p class="lead excuse-text" id="message">I'd love to ride with you guys tomorrow, but...thinking of a good excuse...</p>
-		
-        <button type="button" class="btn btn-primary" id="button">Load another</button>
-		<script>
-			$("#button").click();
-		</script>
-		
-		<a class="bail-link" href="https://docs.google.com/forms/d/1OD2ZQwFeM7_0PJ7ZD37nvwXptgR2kgLNN6AmS2QaDIA/viewform?usp=send_form">Submit an excuse...</a>
-      </div>
-
-    </div><!-- /.container -->
-	
-	<div class="modal">
-	  <div class="modal-dialog">
-		<div class="modal-content">
-		  <div class="modal-header">
-			<button type="button" class="close" data-dismiss="modal" aria-hidden="true">&close;</button>
-			<h4 class="modal-title">Modal title</h4>
-		  </div>
-		  <div class="modal-body">
-			<p>One fine body…</p>
-		  </div>
-		  <div class="modal-footer">
-			<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-			<button type="button" class="btn btn-primary">Save changes</button>
-		  </div>
+      <div class="jumbotron">
+		<p>I'd love to ride with you guys tomorrow, but</p>
+        <h1 id="message">I'd love to ride with you guys tomorrow, but...thinking of a good excuse...</h1>
+		<br> </br>
+		<div>
+			<button type="button" class="btn btn-primary" id="button">Load another</button>
+			<script>
+				$("#button").click();
+			</script>
+			<a class="btn btn-link bail-link" href="https://docs.google.com/forms/d/1OD2ZQwFeM7_0PJ7ZD37nvwXptgR2kgLNN6AmS2QaDIA/viewform?usp=send_form">Submit an excuse...</a>
 		</div>
-	  </div>
-	</div>
-
-
-    <!-- Bootstrap core JavaScript
-    ================================================== -->
+      </div>
+	
+    </div>
+	
     <!-- Placed at the end of the document so the pages load faster -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
     <script src="js/bootstrap.js"></script>
