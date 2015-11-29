@@ -75,7 +75,11 @@ body>.navbar {
     margin-bottom: 10px
 }
 footer {
-    margin: 5em 0
+    position: absolute;
+	bottom: 0;
+    z-index: -1;
+	margin-top: 2em;
+	width: 100%;
 }
 footer li {
     float: left;
@@ -84,7 +88,8 @@ footer li {
 }
 footer p {
     clear: left;
-    margin-bottom: 0
+    margin-bottom: 0;
+	width: 100%;
 }
 .splash {
     padding: 9em 0 2em;

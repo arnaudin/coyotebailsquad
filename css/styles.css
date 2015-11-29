@@ -12,6 +12,7 @@ html, body{
 body{
 	height:100%;
 	padding:0px;
+	padding-bottom: 3em;
 	background: url("../images/coyote_sunrise.jpg") no-repeat;
 	background-color:black !important;
 	-webkit-background-size:cover;
@@ -48,6 +49,14 @@ p.excuse-text {
 	float: left;
 }	
 
+.row {
+	background-color: rgba(0,0,0,.5);
+}
+
+.col-lg-12 {
+	margin: 2em;
+}
+
 @media(max-width: 991px) {
 	.intro{
 		height:100%;
@@ -62,4 +71,8 @@ p.excuse-text {
 	h1{
 		font-size:30px;
 	}
+}
+
+@media (max-height: 500px) {
+	footer { visibility: hidden; }
 }

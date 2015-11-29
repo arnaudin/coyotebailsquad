@@ -20,7 +20,7 @@ function copyToClipboard(element) {
 
 function excuseGen() {
 	
-		var eNum = (Math.floor(Math.random() * 50) + 1);
+		var eNum = (Math.floor(Math.random() * 67) + 1);
 		
 		var intro = "I'd love to ride with you guys tomorrow, but ";
 		
@@ -74,7 +74,25 @@ function excuseGen() {
 		else if( eNum ==  48 ) {excuse = "I had too many Wes burgers. ";}
 		else if( eNum ==  49 ) {excuse = "I think I'm getting sick. ";}
 		else if( eNum ==  50 ) {excuse = "I drank too much beer. ";}
+		else if( eNum ==  51 ) {excuse = "gotta pick up the dog.";}
+		else if( eNum ==  52 ) {excuse = "my friends are getting married.";}
+		else if( eNum ==  53 ) {excuse = "I have an early meeting.";}
+		else if( eNum ==  54 ) {excuse = "having some tire issues.";}
+		else if( eNum ==  55 ) {excuse = "I'm actually just gonna take it easy. My legs are beat from yesterday.";}
+		else if( eNum ==  56 ) {excuse = "dang that's early.";}
+		else if( eNum ==  57 ) {excuse = "I started having a sore throat yesterday and it has only been getting worse. I now have a cough and feel a bit feverish.";}
+		else if( eNum ==  58 ) {excuse = "I'm going to use this as an opportunity to sleep in.";}
+		else if( eNum ==  59 ) {excuse = "I need to bail tomorrow unfortunately, sore throat.";}
+		else if( eNum ==  60 ) {excuse = "I'm feeling under the weather, down to ride on Friday though.";}
+		else if( eNum ==  61 ) {excuse = "it's going to be too dark.";}
+		else if( eNum ==  62 ) {excuse = "I left my helmet at work.";}
+		else if( eNum ==  63 ) {excuse = "depends how late I'm up tonight. I'll keep you posted.";}
+		else if( eNum ==  64 ) {excuse = "bailing tomorrow. Getting to bed too late, sorry.";}
+		else if( eNum ==  65 ) {excuse = "I'm likely opting for a lunch ride or yoga tomorrow.";}
+		else if( eNum ==  66 ) {excuse = "I'm only half committed to riding at 6... I'll check in later.";}
+		else if( eNum ==  67 ) {excuse = "I have a friend in town.";}
 	
+		
 		$("#message").text(excuse);
 	
 	}
