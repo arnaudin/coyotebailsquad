@@ -5,9 +5,12 @@ Uses javascript to generate a random excuse for not riding bikes with friends.
 Credit
 -------
 Based on [Bootstrap](http://getbootstrap.com/ "Bootstrap").
+
 Modified Superhero theme from [Bootswatch](http://bootswatch.com/superhero/ "Bootswatch").
-Background photo by [@s_youngblade](http://instagram.com/s_youngblade "Stephen Youngblad")
-Web fonts by [Google](http://www.google.com/webfonts "Google web fonts")
+
+Background photo by [@s_youngblade](http://instagram.com/s_youngblade "Stephen Youngblade").
+
+Web fonts by [Google](http://www.google.com/webfonts "Google web fonts").
 
 
 License
