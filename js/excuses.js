@@ -91,6 +91,15 @@ function excuseGen() {
 		else if( eNum ==  65 ) {excuse = "I'm likely opting for a lunch ride or yoga tomorrow.";}
 		else if( eNum ==  66 ) {excuse = "I'm only half committed to riding at 6... I'll check in later.";}
 		else if( eNum ==  67 ) {excuse = "I have a friend in town.";}
+		else if( eNum ==  68 ) {excuse = "I won't be riding tomorrow, but let me know if you guys grab coffee and maybe I will meet up!";}
+		else if( eNum ==  69 ) {excuse = "I'm out for tomorrow. Walking home from a date right now. Had quite a few drinks lol";}
+		else if( eNum ==  70 ) {excuse = "depends on timing.";}
+		else if( eNum ==  71 ) {excuse = "I was actually getting the beginnings of a cold as of yesterday.";}
+		else if( eNum ==  72 ) {excuse = "Derp. I forgot that my sister and I have plans tomorrow morning! Gonna watch the sunrise from the Castro.";}
+		else if( eNum ==  73 ) {excuse = "Haha I don't think I'm leaving my house til around 8:30";}
+		else if( eNum ==  74 ) {excuse = "I'm going to bail all together. 6 sounds horrible and it was my idea.";}
+		else if( eNum ==  75 ) {excuse = "sometimes sacrifice at the sun god's alter is a solitary act.";}
+		else if( eNum ==  76 ) {excuse = "can't ride tomorrow, I fell through a worm hole.";}
 	
 		
 		$("#message").text(excuse);
