@@ -75,11 +75,8 @@ body>.navbar {
     margin-bottom: 10px
 }
 footer {
-    position: absolute;
-	bottom: 0;
-    z-index: -1;
-	margin-top: 2em;
-	width: 100%;
+    position: relative;
+    bottom: 0px;
 }
 footer li {
     float: left;

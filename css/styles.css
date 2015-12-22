@@ -7,12 +7,19 @@ p, div, button {
 
 html, body{
 	font-family: 'Roboto', sans-serif;
+	height:100%;
 }
 
+
+#wrap {
+    min-height:100%;
+    width: 100%;
+	overflow: hidden;
+    }
+	
 body{
-	height:100%;
+	
 	padding:0px;
-	padding-bottom: 3em;
 	background: url("../images/coyote_sunrise.jpg") no-repeat;
 	background-color:black !important;
 	-webkit-background-size:cover;
@@ -25,9 +32,11 @@ h1{
 	color:white;
 }
 
+
 a.bail-link {
 	color: #fff;
-	float: right;
+	position: static;
+	
 }
 
 p.excuse-text a {
@@ -57,6 +66,30 @@ p.excuse-text {
 	margin: 2em;
 }
 
+.content {
+	max-height:1000px;
+    overflow: hidden;
+	min-height: 200px;
+
+}
+
+.footer {
+	position: relative;
+    bottom: 0px;
+    background-color:Black;
+}
+
+.pushfoot, .push {
+    height: 123px; 
+}
+
+#wrap {
+    min-height: 100%;
+    height: auto !important;
+    height: 100%;
+    margin: 0 auto -123px;
+    }
+
 @media(max-width: 991px) {
 	.intro{
 		height:100%;
@@ -73,6 +106,15 @@ p.excuse-text {
 	}
 }
 
-@media (max-height: 500px) {
-	footer { visibility: hidden; }
+@media (max-width: 320px) {
+	h1{
+		font-size: 30px !important;
+	
+	}
+	.container {
+		padding-left: 0px !important;
+		padding-right: 0px !important;
+	}
+	
 }
+
