@@ -31,18 +31,18 @@ function excuseGen() {
 		else if( eNum ==  5 ) {excuse = "I got a flat on Market.";}
 		else if( eNum ==  6 ) {excuse = "I think it's supposed to rain.";}
 		else if( eNum ==  7 ) {excuse = "I'm too out of shape.";}
-		else if( eNum ==  8 ) {excuse = "it's going to be windy.";}
+		else if( eNum ==  8 ) {excuse = "it's going to be really windy.";}
 		else if( eNum ==  9 ) {excuse = "I need to swap my tires.";}
 		else if( eNum ==  10 ) {excuse = "my axle bolt rusted to the fork.";}
-		else if( eNum ==  11 ) {excuse = "I switched my pump to Schrader and my tires are low.";}
-		else if( eNum ==  12 ) {excuse = "I'm all out of CO2.";}
+		else if( eNum ==  11 ) {excuse = "I don't have a bike that can go offroad.";}
+		else if( eNum ==  12 ) {excuse = "my pump is broken and I'm all out of CO2.";}
 		else if( eNum ==  13 ) {excuse = "I'm swamped at work this week.";}
 		else if( eNum ==  14 ) {excuse = "I'm going for a run instead.";}
 		else if( eNum ==  15 ) {excuse = "I can't ride until next week :(";}
 		else if( eNum ==  16 ) {excuse = "I'm in Texas.";}
 		else if( eNum ==  17 ) {excuse = "it really depends how early.";}
 		else if( eNum ==  18 ) {excuse = "I've got the janky leg.";}
-		else if( eNum ==  19 ) {excuse = "I'm gonna drive a truck instead.";}
+		else if( eNum ==  19 ) {excuse = "I'm gonna be driving the truck.";}
 		else if( eNum ==  20 ) {excuse = "I left my bike at work.";}
 		else if( eNum ==  21 ) {excuse = "I left my riding shoes at work.";}
 		else if( eNum ==  22 ) {excuse = "I'll be swimming.";}
@@ -100,7 +100,12 @@ function excuseGen() {
 		else if( eNum ==  74 ) {excuse = "I'm going to bail all together. 6 sounds horrible and it was my idea.";}
 		else if( eNum ==  75 ) {excuse = "sometimes sacrifice at the sun god's alter is a solitary act.";}
 		else if( eNum ==  76 ) {excuse = "can't ride tomorrow, I fell through a worm hole.";}
-	
+		else if( eNum ==  77 ) {excuse = "no rain riding for me! Be safe.";}
+		else if( eNum ==  78 ) {excuse = "I'm such a bad coyote guys. I'll get a bike pump and be better next year :)";}
+		else if( eNum ==  79 ) {excuse = "I believe it's supposed to rain...a lot";}
+		else if( eNum ==  80 ) {excuse = "I'm sorry but I'm not gonna make it guys. Enjoy!!";}
+		else if( eNum ==  81 ) {excuse = "I fly out tomorrow night.";}
+		else if( eNum ==  82 ) {excuse = "sorry dudes I will not be able to join tomorrow but will be in the city with my bike/surfboard this weekend if anyone's up for a little somethin somethin";}		
 		
 		$("#message").text(excuse);
 	
