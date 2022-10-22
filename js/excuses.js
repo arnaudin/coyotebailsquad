@@ -112,7 +112,9 @@ function excuseGen() {
 		else if( eNum ==  86 ) {excuse = "I'm going to see Star Wars then IKEA.";}		
 		else if( eNum ==  87 ) {excuse = "my bike is in the shop until Wednesday.";}
 		else if( eNum ==  88 ) {excuse = "some of us are riding out in the Sierras the following weekend and don't want to be wiped out";}	
-		else if( eNum ==  89 ) {excuse = "it's yoga day for me.";}	
+		else if( eNum ==  89 ) {excuse = "it's yoga day for me."
+		else if( eNum ==  90 ) {excuse = "I'm out...Been fighting a cold."
+		else if( eNum ==  91 ) {excuse = "I’m out. I’ve had a really busy week and have an earlier meeting tomorrow. Enjoy!";}	
 		
 		$("#message").text(excuse);
 	
