@@ -20,7 +20,7 @@ function copyToClipboard(element) {
 
 function excuseGen() {
 	
-		var eNum = (Math.floor(Math.random() * 89) + 1);
+		var eNum = (Math.floor(Math.random() * 91) + 1);
 		
 		var intro = "I'd love to ride with you guys tomorrow, but ";
 		
