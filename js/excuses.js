@@ -20,7 +20,7 @@ function copyToClipboard(element) {
 
 function excuseGen() {
 	
-		var eNum = (Math.floor(Math.random() * 92) + 1);
+		var eNum = (Math.floor(Math.random() * 93) + 1);
 		
 		var intro = "I'd love to ride with you guys tomorrow, but ";
 		
@@ -116,6 +116,7 @@ function excuseGen() {
 		else if( eNum ==  90 ) {excuse = "I'm out...Been fighting a cold."
 		else if( eNum ==  91 ) {excuse = "I’m out. I’ve had a really busy week and have an earlier meeting tomorrow. Enjoy!";}
 		else if( eNum ==  92 ) {excuse = "actually…I’m sort of enjoying this wine, I think I’m gonna bail on my own ride call";}
+		else if( eNum ==  93 ) {excuse = "sorry folks, woke up and my elbow has stiffened up from a fall";}
 		
 		$("#message").text(excuse);
 	
